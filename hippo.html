@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic Reset */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #c0155c;
+    color:rgb(42, 2, 45);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #3d9bbe;
+    color: #69910c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #4eb4c9;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #4b9fb1;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills-list li {
+    margin: 0 15px;
+    background: #e3e3e3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #9e60a0;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #8b5bc2;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm a ADITYA VERMA with experience in JavaScript AND CSS. I specialized in working in backend and have a passion for backend.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>AS a tech enthusiast i have a passion for python and i am currently working over a AI bot as my main project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>The project </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you'd like to collaborate or just have a chat!</p>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your ADITYA.PVTLTD All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
